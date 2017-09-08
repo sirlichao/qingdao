@@ -1,0 +1,114 @@
+/* 文件说明 --- main.less 为移动端交易页面样式定义 --- */
+
+body {
+    padding-top: 90px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1PX #a7a7a7 solid;
+}
+
+.segment-box {
+    padding: 24px 30px;
+    background: #fff;
+}
+
+.button {
+    &-box {
+        padding: 0px 30px;
+    }
+    &-box-lg {
+        padding-top: 336px;
+    }
+}
+
+.gh-market {
+    display: flex;
+    padding: 15px 30px;
+    & div.time {
+        flex: 1;
+        & p{
+            color: #323232;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        & p:nth-child(2){
+            color: #df3d3e;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+}
+
+.ryt-list-item{
+    .ryt-input-arrow-vertical{
+        position: absolute;
+        right: 30px;
+    }
+}
+.ryt-result{
+    padding-top: 182px;
+    background-color: inherit;
+    position: inherit;
+    .ryt-result-title{
+        color: #0cc65b;
+        margin-top: 42px;
+    }
+}
+
+.ryt-list-info .ryt-list-line .ryt-list-color999{
+    color: #999;
+}
+.ryt-list .ryt-list-info .ryt-list-line .ryt-list-color666{
+     color: #666;
+ }
+.ryt-list .ryt-list-info .ryt-list-line .ryt-list-font28{
+    font-size: 28px;
+}
+.ryt-agreement-info-content p.second{
+    text-indent: 96px;
+}
+.ryt-agreement-info-centent a {
+    color: #419aff;
+}
+.ryt-list-info>.ryt-list-item>.ryt-list-line>.ryt-list-content-title{
+    font-weight: bold;
+    color: #419aff;
+}
+.ryt-button-short-query{
+    width: 144px;
+}
+.ryt-result-qd{
+    padding: 84px 0 34px 0;
+}
+.ryt-result-title-block{
+    font-weight: bold;
+}
+.ryt-border{
+    border-bottom: 1px  solid #d7d7d7;
+}
+.ryt-agreement-info{
+    .ryt-agreement-info-qd-title{
+        padding: 0px;
+        font-size: 32px;
+        color: #666;
+    }
+    .ryt-agreement-info-message{
+        font-size: 28px;
+        color: #999;
+    }
+}
+//查询额背景色
+.ryt-list .ryt-list-body .ryt-list-item-menu-bg{
+    background-color: #FCFCFD;
+}
+//说明
+.ryt-agreement-info-content-left>p{
+    text-indent: 0;
+    &:first-child{
+        margin-top: 0;
+    }
+}

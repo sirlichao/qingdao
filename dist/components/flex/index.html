@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <title>componetnts</title>
+    <!-- 全局样式 -->
+    <link rel="stylesheet" type="text/css" href="../../style/common.css">
+    <!-- 组件样式 -->
+    <link rel="stylesheet" type="text/css" href="../../style/components.min.css">
+</head>
+
+<body>
+    <div class="ryt-wingblank ryt-wingblank" id="demoCode">
+        <p class="demoTitle">基本布局</p>
+        <!-- 基本布局 -->
+        <div class="flex-container">
+            <div class="ryt-flexbox ryt-flexbox-align-middle">
+                <div class="ryt-flexbox-item">
+                    <div class="demoFlex">示例</div>
+                </div>
+                <div class="ryt-flexbox-item">
+                    <div class="demoFlex">示例</div>
+                </div>
+            </div>
+            <div class="ryt-whitespace ryt-whitespace-lg"></div>
+        </div>
+        <p class="demoTitle">wrap 换行</p>
+        <!-- 正常左对齐 -->
+        <div class="flex-container">
+            <div class="ryt-flexbox ryt-flexbox-wrap ryt-flexbox-align-middle">
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+            </div>
+            <div class="ryt-whitespace ryt-whitespace-lg"></div>
+        </div>
+        <p class="demoTitle">轴对齐方式</p>
+        <div class="flex-container">
+            <!-- 左右居中对齐 -->
+            <div class="ryt-flexbox ryt-flexbox-justify-center ryt-flexbox-align-middle">
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+            </div>
+            <div class="ryt-whitespace ryt-whitespace-md"></div>
+            <!-- 右对齐 -->
+            <div class="ryt-flexbox ryt-flexbox-justify-end ryt-flexbox-align-middle">
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+            </div>
+            <div class="ryt-whitespace ryt-whitespace-md"></div>
+            <!-- 左右等分对齐 -->
+            <div class="ryt-flexbox ryt-flexbox-justify-between ryt-flexbox-align-middle">
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+            </div>
+            <div class="ryt-whitespace ryt-whitespace-md"></div>
+            <!-- 头部对齐-->
+            <div class="ryt-flexbox ryt-flexbox-align-top">
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+            </div>
+            <div class="ryt-whitespace ryt-whitespace-md"></div>
+            <!-- 底部对齐 -->
+            <div class="ryt-flexbox ryt-flexbox-align-bottom">
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+            </div>
+            <div class="ryt-whitespace ryt-whitespace-md"></div>
+            <!-- 垂直居中对齐 -->
+            <div class="ryt-flexbox ryt-flexbox-align-baseline">
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+                <div class="inline">示例</div>
+            </div>
+        </div>
+    </div>
+    <!--弹性适配脚本 -->
+<script type="text/javascript" src="../../js/flexible.js"></script>
+<script type="text/javascript" src="../../js/public/jquery.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<meta charset="UTF-8">
+<title>sample</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<!-- 代码显示样式 -->
+<link rel="stylesheet" type="text/css" href="../../style/sample/prettify.css">
+<!-- DEMO结构样式 -->
+<link rel="stylesheet" type="text/css" href="../../style/sample/sample.css">
+</head>
+
+<body onload="prettyPrint()">
+    <div class="demo-box">
+        <div class="demo-box-left">
+            <div class="demo-title">
+                <a href="/">移动平台H5前端UI库</a>
+            </div>
+            <div class="demo-menu">
+                <div class="demo-menu-one">
+                    <span>布局</span>
+                    <i></i>
+                </div>
+                <ul>
+                    <li><a href="../../components/flex/index.html"><i></i><span>Flex布局</span></a></li>
+                    <li><a href="../../components/wing-blank/index.html">水平间距</a></li>
+                    <li><a href="../../components/white-space/index.html">垂直间距</a></li>
+                </ul>
+                <div class="demo-menu-one">
+                    <span>导航</span>
+                    <i></i>
+                </div>
+                <ul>
+                    <li><a href="../../components/navbar/index.html">Nav导航栏</a></li>
+                    <li><a href="../../components/tabs/index.html">Tabs标签页</a></li>
+                    <li><a href="../../components/tab-bar/index.html">TabBar标签栏</a></li>
+                </ul>
+                <div class="demo-menu-one">
+                    <span>录入</span>
+                    <i></i>
+                </div>
+                <ul>
+                    <li><a href="../../components/button/index.html">按钮</a></li>
+                    <li><a href="../../components/checkbox/index.html">Checkbox复选框</a></li>
+                    <li><a href="../../components/input-item/index.html">InputItem文本输入</a></li>
+                    <li><a href="../../components/button/index.html">图片选择器</a></li>
+                    <li><a href="../../components/button/index.html">文本输入</a></li>
+                    <li><a href="../../components/button/index.html">Picker选择器</a></li>
+                    <li><a href="../../components/button/index.html">PickerView 选择器</a></li>
+                    <li><a href="../../components/button/index.html">Range 区域选择</a></li>
+                    <li><a href="../../components/button/index.html">Radio 单选框</a></li>
+                    <li><a href="../../components/button/index.html">SearchBar 搜索栏</a></li>
+                    <li><a href="../../components/button/index.html">Slider 滑动输入条</a></li>
+                    <li><a href="../../components/button/index.html">Stepper 步进器</a></li>
+                    <li><a href="../../components/button/index.html">Switch 滑动开关</a></li>
+                    <li><a href="../../components/button/index.html">多行输入</a></li>
+                </ul>
+                <div class="demo-menu-one">
+                    <span>数据展示</span>
+                    <i></i>
+                </div>
+                <div class="demo-menu-one">
+                    <span>其它</span>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+        <div class="demo-box-right">
+            <div class="demo-box-right-box">
+                <div class="demo-explain">
+                    <div class="demo-explain-text">
+                        <h3 id="pageinfoTitle">按钮</h3>
+                        <div>
+                            <p><span class="title">说明：</span><span id="pageinfoContent">btn</span></p>
+                        </div>
+                        <code class="demo-explain-text-code">
+                            <pre id="codeExplain" class="prettyprint"></pre>
+                        </code>
+                    </div>
+                </div>
+                <div class="demo-sample">
+                    <div class="demo-sample-title">演示示例</div>
+                    <iframe id="demoFrame" name="demoFrame" title="mobile" src="index.html"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script type="text/javascript" src="../../js/public/jquery.js"></script>
+    <!-- 代码展示脚本文件 -->
+    <script type="text/javascript" src="../../js/sample/prettify.js"></script>
+    <!-- 自定义脚本文件 -->
+    <script type="text/javascript" src="../../js/sample/sample.js"></script>
+    <script type="text/javascript">
+    var pageinfo = document.getElementById("pageInfo");
+    var pageinfoTitle = pageinfo.title;
+    var pageinfoContent = pageinfo.content;
+    $('#titleName').html(pageinfoTitle);
+    $('#pageinfoContent').html(pageinfoContent);
+    </script>
+</body>
+
+</html>

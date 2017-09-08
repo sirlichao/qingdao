@@ -1,0 +1,78 @@
+@import '../../style/mixins';
+@import '../../style/themes/default';
+@import './index';
+
+.@{listPrefixCls}-info {
+    .@{listPrefixCls}-line {
+        .@{listPrefixCls}-content {
+            flex: 2.3;
+            width: auto;
+            color: @color-text-paragraph;
+            line-height: @line-height-base;
+            text-align: left;
+            .ellipsis();
+            padding-top: 14px;
+            padding-bottom: 14px;
+        }
+        .@{listPrefixCls}-content:nth-child(1) {
+            flex: 1;
+            color: @color-text-base;
+            
+        }
+    }
+}
+
+.@{listPrefixCls}-column {
+    .@{listPrefixCls}-line {
+        .@{listPrefixCls}-content {
+            flex: 1;
+            width: auto;
+            color: @color-text-paragraph;
+            font-size: 28px;
+            line-height: @line-height-base;
+            text-align: center;
+            .ellipsis();
+            padding-top: 14px;
+            padding-bottom: 14px;
+        }
+        .@{listPrefixCls}-content:nth-child(1) {
+            text-align: left;
+        }
+    }
+    .@{listPrefixCls}-head {
+        .@{listPrefixCls}-content {
+            color: @color-text-base;
+        }
+    }
+}
+
+.@{listPrefixCls}-multi {
+    .@{listPrefixCls}-line {
+        .@{listPrefixCls}-content {
+            &-row {
+                position: relative;
+                display: flex;
+                flex: 1;
+                align-self: stretch;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                &-base{
+                    font-size: 26px;
+                }
+                & div {
+                    flex: 2;
+                    width: auto;
+                    color: @color-text-paragraph;
+                    line-height: @line-height-base;
+                }
+                & div:nth-child(1) {
+                    flex: 1;
+                    color: @color-text-base;
+                }
+            }
+        }
+    }
+}
+.@{listPrefixCls}-item-menu {
+    min-height: 100px;
+}

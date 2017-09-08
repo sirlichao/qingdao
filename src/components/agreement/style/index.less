@@ -1,0 +1,83 @@
+@import '../../style/themes/default';
+@agreementPrefixCls: ryt-agreement;
+.@{agreementPrefixCls}-info {
+    display: block;
+    word-break: break-word;
+    line-height: @line-height-paragraph;
+    padding: @h-spacing-lg;
+    background: @fill-base;
+    border-top: @border-width-sm solid @border-color-base;
+    border-bottom: @border-width-sm solid @border-color-base;
+    &-bg{
+        background: #f5f5f9;
+        border: 0;
+        p{
+            color: #333333;
+        }
+    }
+    &-title {
+        padding-bottom: @h-spacing-lg;
+        color: @brand-primary;
+        font-size: @font-size-subhead;
+        line-height: @line-height-base;
+        text-align: center;
+    }
+    &-title-left {
+        padding-bottom: @h-spacing-lg;
+        color: @brand-primary;
+        font-size: @font-size-subhead;
+        line-height: @line-height-base;
+        text-align: left;
+    }
+    &-title-center {
+        padding-bottom: @h-spacing-lg;
+        color: @brand-primary;
+        font-size: @font-size-subhead;
+        line-height: @line-height-base;
+        text-align: center;
+    }
+    &-content {
+        color: @color-text-paragraph;
+        line-height: @line-height-paragraph;
+        & p {
+            color: @color-text-paragraph;
+            font-size: @font-size-caption-sm;
+            line-height: @line-height-paragraph;
+            text-indent: 2 * @font-size-caption-sm;
+            word-break:break-all;
+            margin-top: 10px;
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+        &-color333{
+            p{
+                color: #333;
+            }
+        }
+        &-title{
+            color: #333;
+            font-weight: bold;
+            margin-top: 10px;
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+        & a {
+            color: @brand-primary;
+        }
+        & span {
+            color: @brand-important;
+        }
+    }
+}
+.@{agreementPrefixCls}-confirm {
+    padding: 0 @h-spacing-lg;
+    &-tips {
+        text-align: center;
+        color: @color-text-caption;
+        & a {
+            color: @brand-primary;
+        }
+    }
+}

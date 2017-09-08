@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <title>componetnts</title>
+    <!-- 全局样式 -->
+    <link rel="stylesheet" type="text/css" href="../../style/common.css">
+    <!-- 组件样式 -->
+    <link rel="stylesheet" type="text/css" href="../../style/components.min.css">
+</head>
+
+<body>
+    <div id="demoCode">
+        <p class="demoTitle">tabs标签页</p>
+        <!-- 普通标签页 - 开始 -->
+        <div class="ryt-tabs ryt-tabs-top">
+            <!-- 标签选项卡 -->
+            <div class="ryt-tabs-bar">
+                <!-- 选项卡位置标识 -->
+                <div class="ryt-tabs-ink-bar ryt-tabs-ink-bar-animated " style="display: block; transform: translate3d(125px, 0px, 0px); width: 125px;"></div>
+                <!-- 选项卡列表 -->
+                <div class="ryt-tabs-tab">选项卡1</div>
+                <div class="ryt-tabs-tab ryt-tabs-tab-active">选项卡2</div>
+                <div class="ryt-tabs-tab">选项卡3</div>
+            </div>
+            <!-- 选项卡内容 -->
+            <div class="ryt-tabs-content ryt-tabs-content-animated">
+                <!-- 选项卡内容列表 -->
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-active">
+                    <div style="display: flex; align-items: center; justify-content: center; height: 160px; background-color: rgb(255, 255, 255);">选项卡1内容</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>2</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>3</div>
+                </div>
+            </div>
+        </div>
+        <!-- 普通标签页 - 结束 -->
+        <p class="demoTitle">超出宽度，多于5个标签。</p>
+        <!-- 超出宽度标签页 - 开始 -->
+        <div class="ryt-tabs ryt-tabs-top">
+            <!-- 标签选项卡 -->
+            <div class="ryt-tabs-bar">
+                <div class="ryt-tabs-nav-container ryt-tabs-nav-swipe-container ryt-tabs-nextpage">
+                    <div class="ryt-tabs-nav-wrap">
+                        <div class="ryt-tabs-nav-swipe">
+                            <div class="ryt-tabs-nav">
+                                <!-- 选项卡位置标识 -->
+                                <div class="ryt-tabs-ink-bar ryt-tabs-ink-bar-animated" style="transform: translate3d(0px, 0px, 0px); width: 75px;"></div>
+                                <!-- 选项卡列表 -->
+                                <div class="ryt-tabs-tab ryt-tabs-tab-active">选项0</div>
+                                <div class="ryt-tabs-tab">选项1</div>
+                                <div class="ryt-tabs-tab">选项2</div>
+                                <div class="ryt-tabs-tab">选项3</div>
+                                <div class="ryt-tabs-tab">选项4</div>
+                                <div class="ryt-tabs-tab">选项5</div>
+                                <div class="ryt-tabs-tab">选项6</div>
+                                <div class="ryt-tabs-tab">选项7</div>
+                                <div class="ryt-tabs-tab">选项8</div>
+                                <div class="ryt-tabs-tab">选项9</div>
+                                <div class="ryt-tabs-tab">选项10</div>
+                                <div class="ryt-tabs-tab">选项11</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 选项卡内容 -->
+            <div class="ryt-tabs-content ryt-tabs-content-animated">
+                <!-- 选项卡内容列表 -->
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-active">
+                    <div style="display: flex; align-items: center; justify-content: center; height: 160px; background-color: rgb(255, 255, 255);">选项0内容</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>选项1内容</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>选项2内容</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>选项3内容</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>选项4内容</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>选项5内容</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>选项6内容</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>选项7内容</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>选项8内容</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>选项9内容</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>选项10内容</div>
+                </div>
+                <div class="ryt-tabs-tabpane ryt-tabs-tabpane-inactive">
+                    <div>选项11内容</div>
+                </div>
+            </div>
+        </div>
+        <!-- 超出宽度标签页 - 结束 -->
+    </div>
+    <!--弹性适配脚本 -->
+<script type="text/javascript" src="../../js/flexible.js"></script>
+<script type="text/javascript" src="../../js/public/jquery.js"></script>
+</body>
+
+</html>

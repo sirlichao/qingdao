@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <title>componetnts</title>
+    <!-- 全局样式 -->
+    <link rel="stylesheet" type="text/css" href="../../style/common.css">
+    <!-- 组件样式 -->
+    <link rel="stylesheet" type="text/css" href="../../style/components.min.css">
+</head>
+
+<body>
+    <div id="demoCode">
+        <div class="ryt-list">
+            <div class="ryt-list-header">输入列表</div>
+            <div class="ryt-list-body">
+                <!-- 无标题 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="无标题">
+                    </div>
+                </div>
+                <!-- 图标标题 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">
+                        <img src="../../img/icon/search@3x.png" class="ryt-btn-icon ryt-icon-md" />
+                    </div>
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="图标标题">
+                    </div>
+                </div>
+                <!-- 文本录入 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">标题</div>
+                    <div class="ryt-input-control">
+                        <input type="tel" value="" placeholder="请输入银行卡号码">
+                    </div>
+                </div>
+                <!-- 密码录入 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">密码</div>
+                    <div class="ryt-input-control">
+                        <input type="password" value="" placeholder="****">
+                    </div>
+                </div>
+                <!-- 标题超长 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">标题</div>
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="标题长度默认的5个汉字">
+                    </div>
+                </div>
+                <!-- 金额录入 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">价格</div>
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="0.00">
+                    </div>
+                    <div class="ryt-input-extra">¥</div>
+                </div>
+                <!-- 右侧图标 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">标题</div>
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="右侧图标">
+                    </div>
+                    <div class="ryt-input-extra">
+                        <div class="ryt-icon ryt-icon-xs ryt-icon-menu-gouhui"></div>
+                    </div>
+                </div>
+                <!-- 右侧图标 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">日期选择</div>
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="2017-08-20">
+                    </div>
+                    <div class="ryt-input-extra">
+                        <div class="ryt-input-arrow ryt-input-arrow-vertical"></div>
+                    </div>
+                </div>
+                <!-- 右侧图标 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">清除内容</div>
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="清除样式内容">
+                    </div>
+                    <div class="ryt-input-extra">
+                        <div class="ryt-input-clear" style="display: block;">
+                        </div>
+                    </div>
+                </div>
+                <!-- 右侧按钮 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">短信验证码</div>
+                    <div class="ryt-input-control">
+                        <input type="tel" placeholder="请输入短信验证码" value="">
+                    </div>
+                    <div class="ryt-button ryt-button-ghost ryt-button-list"><span>获取</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="ryt-list">
+            <div class="ryt-list-header">录入验证</div>
+            <div class="ryt-list-body">
+                <!-- 录入验证 -->
+                <div class="ryt-list-item ryt-input-item ryt-input-error">
+                    <div class="ryt-input-label ryt-input-label-5">手机号码</div>
+                    <div class="ryt-input-control">
+                        <input type="tel" placeholder="请输入手机号码" value="139012345678">
+                    </div>
+                    <div class="ryt-input-error-extra"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ryt-list">
+            <div class="ryt-list-body">
+                <div class="ryt-list-item ryt-input-item ryt-input-item-query">
+                    <div class="ryt-input-control ryt-input-control-query">
+                        <input type="text" placeholder="收款人姓名/币种/开户行" value="">
+                    </div>
+                    <div class="ryt-button ryt-button-short ryt-button-primary ryt-button-inline ryt-button-qd"><span>查询</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--弹性适配脚本 -->
+<script type="text/javascript" src="../../js/flexible.js"></script>
+<script type="text/javascript" src="../../js/public/jquery.js"></script>
+</body>
+
+</html>

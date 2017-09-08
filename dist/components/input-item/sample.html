@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="pageInfo" id="pageInfo" title="Flex布局" content="说明">
+    <div style="display:none;">
+        <!DOCTYPE html>
+<html>
+<!--include "../../templet/head.components.html"-->
+
+<body>
+    <div id="demoCode">
+        <div class="ryt-list">
+            <div class="ryt-list-header">输入列表</div>
+            <div class="ryt-list-body">
+                <!-- 无标题 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="无标题">
+                    </div>
+                </div>
+                <!-- 图标标题 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">
+                        <img src="../../img/icon/search@3x.png" class="ryt-btn-icon ryt-icon-md" />
+                    </div>
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="图标标题">
+                    </div>
+                </div>
+                <!-- 文本录入 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">标题</div>
+                    <div class="ryt-input-control">
+                        <input type="tel" value="" placeholder="请输入银行卡号码">
+                    </div>
+                </div>
+                <!-- 密码录入 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">密码</div>
+                    <div class="ryt-input-control">
+                        <input type="password" value="" placeholder="****">
+                    </div>
+                </div>
+                <!-- 标题超长 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">标题</div>
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="标题长度默认的5个汉字">
+                    </div>
+                </div>
+                <!-- 金额录入 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">价格</div>
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="0.00">
+                    </div>
+                    <div class="ryt-input-extra">¥</div>
+                </div>
+                <!-- 右侧图标 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">标题</div>
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="右侧图标">
+                    </div>
+                    <div class="ryt-input-extra">
+                        <div class="ryt-icon ryt-icon-xs ryt-icon-menu-gouhui"></div>
+                    </div>
+                </div>
+                <!-- 右侧图标 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">日期选择</div>
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="2017-08-20">
+                    </div>
+                    <div class="ryt-input-extra">
+                        <div class="ryt-input-arrow ryt-input-arrow-vertical"></div>
+                    </div>
+                </div>
+                <!-- 右侧图标 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">清除内容</div>
+                    <div class="ryt-input-control">
+                        <input type="text" value="" placeholder="清除样式内容">
+                    </div>
+                    <div class="ryt-input-extra">
+                        <div class="ryt-input-clear" style="display: block;">
+                        </div>
+                    </div>
+                </div>
+                <!-- 右侧按钮 -->
+                <div class="ryt-list-item ryt-input-item">
+                    <div class="ryt-input-label ryt-input-label-5">短信验证码</div>
+                    <div class="ryt-input-control">
+                        <input type="tel" placeholder="请输入短信验证码" value="">
+                    </div>
+                    <div class="ryt-button ryt-button-ghost ryt-button-list"><span>获取</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="ryt-list">
+            <div class="ryt-list-header">录入验证</div>
+            <div class="ryt-list-body">
+                <!-- 录入验证 -->
+                <div class="ryt-list-item ryt-input-item ryt-input-error">
+                    <div class="ryt-input-label ryt-input-label-5">手机号码</div>
+                    <div class="ryt-input-control">
+                        <input type="tel" placeholder="请输入手机号码" value="139012345678">
+                    </div>
+                    <div class="ryt-input-error-extra"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ryt-list">
+            <div class="ryt-list-body">
+                <div class="ryt-list-item ryt-input-item ryt-input-item-query">
+                    <div class="ryt-input-control ryt-input-control-query">
+                        <input type="text" placeholder="收款人姓名/币种/开户行" value="">
+                    </div>
+                    <div class="ryt-button ryt-button-short ryt-button-primary ryt-button-inline ryt-button-qd"><span>查询</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--include "../../templet/js.components.html"-->
+</body>
+
+</html>
+    </div>
+    <meta charset="UTF-8">
+<title>sample</title>
+<meta name="format-detection" content="telephone=no" />
+<!-- 代码显示样式 -->
+<link rel="stylesheet" type="text/css" href="../../style/sample/prettify.css">
+<!-- DEMO结构样式 -->
+<link rel="stylesheet" type="text/css" href="../../style/sample/sample.css">
+</head>
+
+<body onload="prettyPrint()">
+    <div class="demo-box">
+        <div class="demo-box-left">
+            <div class="demo-title">
+                <a href="/">移动平台H5前端UI库</a>
+            </div>
+            <div class="demo-menu">
+                <div class="demo-menu-one">
+                    <span>布局</span>
+                    <i></i>
+                </div>
+                <ul>
+                    <li><a href="../../components/flex/sample.html"><i></i><span>Flex布局</span></a></li>
+                    <li><a href="../../components/wing-blank/sample.html">水平间距</a></li>
+                    <li><a href="../../components/white-space/sample.html">垂直间距</a></li>
+                </ul>
+                <div class="demo-menu-one">
+                    <span>导航</span>
+                    <i></i>
+                </div>
+                <ul>
+                    <li><a href="../../components/navbar/sample.html">Nav导航栏</a></li>
+                    <li><a href="../../components/tabs/sample.html">Tabs标签页</a></li>
+                    <li><a href="../../components/tab-bar/sample.html">TabBar标签栏</a></li>
+                </ul>
+                <div class="demo-menu-one">
+                    <span>录入</span>
+                    <i></i>
+                </div>
+                <ul>
+                    <li><a href="../../components/agreement/sample.html">同意协议</a></li>
+                    <li><a href="../../components/button/sample.html">按钮</a></li>
+                    <li><a href="../../components/checkbox/sample.html">复选框</a></li>
+                    <li><a href="../../components/flex/sample.html">flex</a></li>
+                    <li><a href="../../components/icon/sample.html">图标</a></li>
+                    <li><a href="../../components/input-item/sample.html">输入框</a></li>
+                    <li><a href="../../components/list/sample.html">list</a></li>
+                    <li><a href="../../components/navbar/sample.html">导航条</a></li>
+                    <li><a href="../../components/radio/sample.html">单选</a></li>
+                    <li><a href="../../components/result/sample.html">结果页</a></li>
+                    <li><a href="../../components/segmented-control/sample.html">控制</a></li>
+                    <li><a href="../../components/switch/sample.html">开关</a></li>
+                    <li><a href="../../components/tab-bar/sample.html">标签页</a></li>
+                    <li><a href="../../components/tabs/sample.html">标签</a></li>
+                    <li><a href="../../components/white-space/sample.html">留白</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="demo-box-right">
+            <div class="demo-box-right-box">
+                <div class="demo-explain">
+                    <div class="demo-explain-text">
+                        <h3 id="pageinfoTitle">按钮</h3>
+                        <div>
+                            <p><span class="title">说明：</span><span id="pageinfoContent">btn</span></p>
+                        </div>
+                        <code class="demo-explain-text-code">
+                            <pre id="codeExplain" class="prettyprint"></pre>
+                        </code>
+                    </div>
+                </div>
+                <div class="demo-sample">
+                    <div class="demo-sample-title">演示示例</div>
+                    <iframe id="demoFrame" name="demoFrame" title="mobile" src="index.html"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script type="text/javascript" src="../../js/public/jquery.js"></script>
+    <!-- 代码展示脚本文件 -->
+    <script type="text/javascript" src="../../js/sample/prettify.js"></script>
+    <!-- 自定义脚本文件 -->
+    <script type="text/javascript" src="../../js/sample/sample.js"></script>
+    <script type="text/javascript">
+    var pageinfo = document.getElementById("pageInfo");
+    var pageinfoTitle = pageinfo.title;
+    var pageinfoContent = pageinfo.content;
+    $('#titleName').html(pageinfoTitle);
+    $('#pageinfoContent').html(pageinfoContent);
+    </script>
+</body>
+
+</html>

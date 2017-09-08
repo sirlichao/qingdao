@@ -1,0 +1,93 @@
+<meta charset="UTF-8">
+<title>sample</title>
+<meta name="format-detection" content="telephone=no" />
+<!-- 代码显示样式 -->
+<link rel="stylesheet" type="text/css" href="../../style/sample/prettify.css">
+<!-- DEMO结构样式 -->
+<link rel="stylesheet" type="text/css" href="../../style/sample/sample.css">
+</head>
+
+<body onload="prettyPrint()">
+    <div class="demo-box">
+        <div class="demo-box-left">
+            <div class="demo-title">
+                <a href="/">移动平台H5前端UI库</a>
+            </div>
+            <div class="demo-menu">
+                <div class="demo-menu-one">
+                    <span>布局</span>
+                    <i></i>
+                </div>
+                <ul>
+                    <li><a href="../../components/flex/sample.html"><i></i><span>Flex布局</span></a></li>
+                    <li><a href="../../components/wing-blank/sample.html">水平间距</a></li>
+                    <li><a href="../../components/white-space/sample.html">垂直间距</a></li>
+                </ul>
+                <div class="demo-menu-one">
+                    <span>导航</span>
+                    <i></i>
+                </div>
+                <ul>
+                    <li><a href="../../components/navbar/sample.html">Nav导航栏</a></li>
+                    <li><a href="../../components/tabs/sample.html">Tabs标签页</a></li>
+                    <li><a href="../../components/tab-bar/sample.html">TabBar标签栏</a></li>
+                </ul>
+                <div class="demo-menu-one">
+                    <span>录入</span>
+                    <i></i>
+                </div>
+                <ul>
+                    <li><a href="../../components/agreement/sample.html">同意协议</a></li>
+                    <li><a href="../../components/button/sample.html">按钮</a></li>
+                    <li><a href="../../components/checkbox/sample.html">复选框</a></li>
+                    <li><a href="../../components/flex/sample.html">flex</a></li>
+                    <li><a href="../../components/icon/sample.html">图标</a></li>
+                    <li><a href="../../components/input-item/sample.html">输入框</a></li>
+                    <li><a href="../../components/list/sample.html">list</a></li>
+                    <li><a href="../../components/navbar/sample.html">导航条</a></li>
+                    <li><a href="../../components/radio/sample.html">单选</a></li>
+                    <li><a href="../../components/result/sample.html">结果页</a></li>
+                    <li><a href="../../components/segmented-control/sample.html">控制</a></li>
+                    <li><a href="../../components/switch/sample.html">开关</a></li>
+                    <li><a href="../../components/tab-bar/sample.html">标签页</a></li>
+                    <li><a href="../../components/tabs/sample.html">标签</a></li>
+                    <li><a href="../../components/white-space/sample.html">留白</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="demo-box-right">
+            <div class="demo-box-right-box">
+                <div class="demo-explain">
+                    <div class="demo-explain-text">
+                        <h3 id="pageinfoTitle">按钮</h3>
+                        <div>
+                            <p><span class="title">说明：</span><span id="pageinfoContent">btn</span></p>
+                        </div>
+                        <code class="demo-explain-text-code">
+                            <pre id="codeExplain" class="prettyprint"></pre>
+                        </code>
+                    </div>
+                </div>
+                <div class="demo-sample">
+                    <div class="demo-sample-title">演示示例</div>
+                    <iframe id="demoFrame" name="demoFrame" title="mobile" src="index.html"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script type="text/javascript" src="../../js/public/jquery.js"></script>
+    <!-- 代码展示脚本文件 -->
+    <script type="text/javascript" src="../../js/sample/prettify.js"></script>
+    <!-- 自定义脚本文件 -->
+    <script type="text/javascript" src="../../js/sample/sample.js"></script>
+    <script type="text/javascript">
+    var pageinfo = document.getElementById("pageInfo");
+    var pageinfoTitle = pageinfo.title;
+    var pageinfoContent = pageinfo.content;
+    $('#titleName').html(pageinfoTitle);
+    $('#pageinfoContent').html(pageinfoContent);
+    </script>
+</body>
+
+</html>

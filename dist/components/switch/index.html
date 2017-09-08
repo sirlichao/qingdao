@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <title>componetnts</title>
+    <!-- 全局样式 -->
+    <link rel="stylesheet" type="text/css" href="../../style/common.css">
+    <!-- 组件样式 -->
+    <link rel="stylesheet" type="text/css" href="../../style/components.min.css">
+</head>
+
+<body>
+    <div id="demoCode">
+        <div class="ryt-list">
+            <div class="ryt-list-header">开关</div>
+            <div class="ryt-list-body">
+                <div class="ryt-list-item ryt-list-item-middle">
+                    <div class="ryt-list-line">
+                        <div class="ryt-list-content">关</div>
+                        <div class="ryt-list-extra">
+                            <label class="ryt-switch">
+                                <input type="checkbox" class="ryt-switch-checkbox " value="on">
+                                <div class="checkbox"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="ryt-list-ripple" style="display: none;"></div>
+                </div>
+                <div class="ryt-list-item ryt-list-item-middle">
+                    <div class="ryt-list-line">
+                        <div class="ryt-list-content">开</div>
+                        <div class="ryt-list-extra">
+                            <label class="ryt-switch">
+                                <input type="checkbox" class="ryt-switch-checkbox" value="off">
+                                <div class="checkbox on"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="ryt-list-ripple" style="display: none;"></div>
+                </div>
+                <div class="ryt-list-item ryt-list-item-middle">
+                    <div class="ryt-list-line">
+                        <div class="ryt-list-content">关 不可用</div>
+                        <div class="ryt-list-extra">
+                            <label class="ryt-switch">
+                                <input type="checkbox" class="ryt-switch-checkbox" disabled="">
+                                <div class="checkbox checkbox-disabled"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="ryt-list-ripple" style="display: none;"></div>
+                </div>
+                <div class="ryt-list-item ryt-list-item-middle">
+                    <div class="ryt-list-line">
+                        <div class="ryt-list-content">开 不可用</div>
+                        <div class="ryt-list-extra">
+                            <label class="ryt-switch">
+                                <input type="checkbox" class="ryt-switch-checkbox" disabled="" value="on">
+                                <div class="checkbox on checkbox-disabled"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="ryt-list-ripple" style="display: none;"></div>
+                </div>
+                <div class="ryt-list-item ryt-list-item-middle">
+                    <div class="ryt-list-line">
+                        <div class="ryt-list-content">Android 样式</div>
+                        <div class="ryt-list-extra">
+                            <label class="ryt-switch ryt-switch-android">
+                                <input type="checkbox" class="ryt-switch-checkbox">
+                                <div class="checkbox"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="ryt-list-ripple" style="display: none;"></div>
+                </div>
+                <div class="ryt-list-item ryt-list-item-middle">
+                    <div class="ryt-list-line">
+                        <div class="ryt-list-content">iOS 样式</div>
+                        <div class="ryt-list-extra">
+                            <label class="ryt-switch">
+                                <input type="checkbox" class="ryt-switch-checkbox" value="on">
+                                <div class="checkbox"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="ryt-list-ripple" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--弹性适配脚本 -->
+<script type="text/javascript" src="../../js/flexible.js"></script>
+<script type="text/javascript" src="../../js/public/jquery.js"></script>
+</body>
+
+</html>

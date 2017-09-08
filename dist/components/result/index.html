@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <title>componetnts</title>
+    <!-- 全局样式 -->
+    <link rel="stylesheet" type="text/css" href="../../style/common.css">
+    <!-- 组件样式 -->
+    <link rel="stylesheet" type="text/css" href="../../style/components.min.css">
+</head>
+
+<body>
+    <div id="demoCode">
+        <!-- 操作成功 - 开始 -->
+        <div class="ryt-result">
+            <div class="ryt-result-pic ryt-icon-success">
+            </div>
+            <div class="ryt-result-title">操作成功</div>
+            <div class="ryt-result-message">
+                <div>
+                    998.00元
+                    <del>1098元</del>
+                </div>
+            </div>
+        </div>
+        <!-- 操作成功 - 结束 -->
+        <div class="ryt-whitespace ryt-whitespace-md"></div>
+        <!-- 操作失败 - 开始 -->
+        <div class="ryt-result">
+            <div class="ryt-result-pic ryt-icon-error">
+            </div>
+            <div class="ryt-result-title">操作失败</div>
+            <div class="ryt-result-message">银行卡余额不足</div>
+        </div>
+        <!-- 操作失败 - 结束 -->
+        <div class="ryt-whitespace ryt-whitespace-md"></div>
+        <!-- 操作提示 - 开始 -->
+        <div class="ryt-result">
+            <div class="ryt-result-pic ryt-icon-warning">
+            </div>
+            <div class="ryt-result-title">操作提示</div>
+            <div class="ryt-result-message">您的操作有误，请等待银行处理</div>
+        </div>
+        <!-- 操作提示 - 结束 -->
+        <div class="ryt-whitespace ryt-whitespace-md"></div>
+        <!-- 等待处理 - 开始 -->
+        <div class="ryt-result">
+            <div class="ryt-result-pic ryt-icon-wait">
+            </div>
+            <div class="ryt-result-title">等待处理</div>
+            <div class="ryt-result-message">已提交申请，等待银行处理</div>
+        </div>
+        <!-- 等待处理 - 结束 -->
+    </div>
+    <!--弹性适配脚本 -->
+<script type="text/javascript" src="../../js/flexible.js"></script>
+<script type="text/javascript" src="../../js/public/jquery.js"></script>
+</body>
+
+</html>
